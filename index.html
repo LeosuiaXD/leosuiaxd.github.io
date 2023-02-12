@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="StyleSheet" href="CSS/Estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <!--Borde Derecho donde está formación academica/laboral del usuario -->
+  <aside class="bordeRosa">
+    <div>
+     <h1 >
+        <span id="nombre" ></span><br>
+        <span id="apellido"></span>
+    </h1>
+    </div>
+    <div>
+      <h2 class="experienciaLaboral">EXPERIENCIA LABORAL</h2>
+    </div>
+    <div class="infoLaboral"><!--Div de información laboral y educación -->
+      <h3 class="bordeSuperior">Asistente de Gerencia</h3>
+      <h3 class="bordeIzq">Empresa increíble, Agosto 2019 - Presente</h3>
+        <ul class="bordeIzq">
+          <li>Asistencia administrativa integral a Gerencia.</li>
+          <li>Seguimiento de Agenda. Revisión de Idoneidad de documentos y control de archivo. 
+            Creación de Presentaciones mensuales.</li>
+        </ul>
+      <h3 class="bordeSuperior">Asistente Administrativo</h3>
+      <h3 class="bordeIzq">Empresa Increíble, Ene 2016 - Jul 2017</h3>
+        <ul class="bordeIzq">
+          <li>Recepción de Clientes. Manejo de Conmutador.</li>
+          <li>Asistencia a mesa de entradas. Organización de libro de entrada y salida.</li>
+          <li>Preparación de informes semanales.</li>
+        </ul>
+      <h3 class="bordeSuperior">Atención al Público</h3>
+      <h3 class="bordeIzq">Empresa Increíble, Ene 2014 - Jul 2015</h3>
+      <ul class="bordeIzq">
+        <li>Atención a Clientes personalmente.</li>
+        <li>Mantenimiento y seguimiento de Stock y logística.</li>
+        <li>Preparación de informes semanales.</li>
+      </ul>
+      <h2 class="experienciaLaboral">Educación</h2>
+      <h3 class="bordeSuperior">Universidad Increíble</h3>
+      <h3 class="bordeIzq">Lic. en Administración, 2018</h3>
+      <ul class="bordeIzq">
+        <li>Graduado con honores académicos </li>
+        <li>Vicepresidente del Club de Matemática, 2012 </li>
+      </ul>
+      <h3 class="bordeSuperior">Colegio Secundario increíble</h3>
+      <h3 class="bordeIzq">Bachiller en bienes y servicios, 2012</h3>
+      <ul class="bordeIzq">
+        <li>Graduado con honores académicos</li>
+        <li>Vicepresidente del Club de Matemática, 2012</li>
+      </ul>
+    </div>
+
+  </aside>
+  <!--Borde izquierdo donde va información personal del usuario-->
+  <section>
+    <img src="" alt="Foto perfil del CV" id="foto">
+
+    <h2 class="seccion">Acerca de mí</h2>
+      <br>
+    <p class="parrafoizq"><b>Soy una persona proactiva, organizada 
+      y responsable, con buenas relaciones interpersonales.
+      Siempre tengo la mejor disposición para la realización de mis labores. Busco un puesto de trabajo desafiante.</b>
+    </p><br>
+    <h2 class="seccion">Datos de contacto</h2><br>
+    <p class="parrafoizq">
+      <img src="Imagenes/telefono.png" alt="celular Icono" class="iconos"><!--Imagen de celular-->
+      <span id="telefono"></span><br><br>
+      <img src="Imagenes/correo.png" alt="correo Icono" class="iconos"><!--Imagen de correo-->
+      <span id="correo"></span><br><br>
+      <img src="Imagenes/ubicación.png" alt="Icono ubicación" class="iconos"><!--Imagen de ubicación-->
+      <span id="direccion"></span> <br><br>
+      <span class="ciudad" id="ciudad"></span>
+      <br><br><br> <!-- Espacios blancos-->
+    </p>
+  </section>
+  <!-- Comienzo pie de página-->
+  <footer> 
+    <div class="boton">
+      <button id="boton"> Siguiente CV</button>
+    </div>
+    <p>Author: Galarza.V.Leonardo.E</p>
+  </footer>
+  <script src="JavaScript/RandomUser.js"></script> <!--Llamado a javascript-->
+</body>
+</html>

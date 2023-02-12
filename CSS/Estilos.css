@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*Fuentes de letras */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400&display=swap');
+body {
+    background-color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    margin-top: 45px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    
+}
+h2{
+    margin-top: 45px;
+    margin-bottom: 5px;
+    text-align: start;
+    text-transform: uppercase;
+    padding: 5px;
+}
+h3 {
+    padding-left: 35px;
+    text-align: start;
+    color: #222222;
+ }
+
+@media (max-width: 600px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
+
+p {
+    color: rgb(17, 22, 37);
+}
+.parrafoizq{
+    margin-left: 45px;  
+    font-family: 'League Spartan', sans-serif;  
+    font-size: 17px;
+    color: #ffffff;
+    
+}
+img {
+    border-radius: 50%;
+    width: 250px;
+    display: block;
+    margin: auto;
+    border: solid;
+    border-width: 5px ;
+    border-color: #ffffff;
+    
+}
+aside{
+    width: 69%;
+    margin-left: 0px ;
+    padding-left: 0px;
+    float: right;
+}
+section{
+    margin-top: 45px;
+    margin-left: 15px;
+    width: 30%;
+    border-width: 30%;
+    background-color: #5b8f8f;
+    
+}
+
+.seccion{
+    color: #ffffff;
+    font-family: 'League Spartan', sans-serif;
+}
+.bordeRosa{
+    background-color: #ebc9bb;
+
+}
+.bordeSuperior{
+    border-top: solid;
+    border-left: solid;
+    border-width: 2px;
+}
+.bordeIzq{
+    border-left: solid;
+    border-width: 2px;
+}
+.iconos{
+    width: 30px;
+    border: none;
+    border-width: 5px ;
+    float: left;
+}
+
+.experienciaLaboral{
+    margin-bottom: 5px;
+    text-align: start;
+    padding: 5px;
+    padding-left: 45px;
+    color: #ffffff;
+    background-clip: padding-box;
+    background-color: #6299e0;
+   
+}
+.infoLaboral{
+    background-color: #ffffff;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+button {
+    border: none;
+    background: linear-gradient(to right, rgb(14, 67, 174), rgb(7, 94, 224));
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 400ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
